@@ -4,7 +4,7 @@
 #
 
 # 1. Input
-
+n = input
 # 2. Process
 
 # 3. Output
