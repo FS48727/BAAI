@@ -1,15 +1,15 @@
 #
 # Frederik
-#Take two number and compare
+# Compare two numbers and print the bigger one
 
 # 1. Input
 n1 = int(input("Number 1: "))
 n2 = int(input("Number 2: "))
 
 # 2. Process
-if n1 > n2:
+if (n1 > n2):
     bigger  = n1
-elif n1< n2:
+elif (n1< n2):
     bigger = n2
 else:
     bigger = 'Same'
