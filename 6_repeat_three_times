@@ -3,8 +3,10 @@
 # repeat three time
 #
 
-i = 1
-while i < 4:
+max_lap = 3
+curr_lap = 1
+
+while (curr_lap <= max_lap):
     # 1. Input
     n1 = int(input("Number 1: "))
     n2 = int(input("Number 2: "))
@@ -19,5 +21,6 @@ while i < 4:
 
     # 3. Output
     print(f'Bigger number:{bigger}')
-    i+=1
-
+    curr_lap+=1
+    
+print(f'The End')
