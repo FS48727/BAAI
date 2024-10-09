@@ -1,6 +1,7 @@
 #
 # Frederik
 # Compare two numbers and print the bigger one
+#
 
 # 1. Input
 n1 = int(input("Number 1: "))
@@ -13,5 +14,6 @@ elif (n1< n2):
     bigger = n2
 else:
     bigger = 'Same'
+
 # 3. Output
 print(f'Bigger number:{bigger}')
