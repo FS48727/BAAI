@@ -14,4 +14,4 @@ elif (n1< n2):
 else:
     bigger = 'Same'
 # 3. Output
-print(f'Bigger:{bigger}')
+print(f'Bigger number:{bigger}')
