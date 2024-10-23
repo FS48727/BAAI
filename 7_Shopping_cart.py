@@ -1,6 +1,6 @@
 #
 # Frederik
-# Shopping Card
+# Shopping Cart
 #
  
 i = 1
@@ -11,7 +11,7 @@ while (i <= s):
  
     # 1. Input
     name = input(f'Enter the name item {i}: ')
-    price = int(input(f'Enter the price {name}: ' ))
+    price = int(input(f'Enter the price of {name}: ' ))
     quantity = int(input(f'Enter the quantity of {name}: ' ))
     sum1 = (price*quantity)
     print (f'Total cost for {name}: {sum1}')
