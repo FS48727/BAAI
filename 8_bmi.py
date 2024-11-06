@@ -1,7 +1,7 @@
 #
 # Frederik
 # BMI Calculator
-#
+# 
  
 while True:
     w = float(input('Enter uour weight in kg      : '))
