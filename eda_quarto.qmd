@@ -1,0 +1,61 @@
+---
+title: 'Exploratory Data Analysis'
+author: 'Brian'
+format: html
+---
+
+## Load package
+```{python}
+import pandas as pd
+```
+
+## Load data set from smoker.csv file
+```{python}
+df = pd.read_csv('smoker.csv')
+```
+
+## Check dimension of dataset
+
+```{python}
+df.shape
+```
+
+## Check detail of dataset (cols,rows, types, etc)
+
+```{python}
+df.info()
+```
+
+## Check first first rows
+```{python}
+df.head()
+```
+
+## check last rows
+```{python}
+df.tail()
+```
+
+## Calculate the sum of treatment collumn
+
+```{python}
+treatment_sum = df['treatment'].sum()
+print(f'The sum is: {treatment_sum}')
+```
+
+## create a descreptive statistics
+
+```{python}
+treatment_mean = df['treatment'].mean()
+print(f'The mean is: {treatment_mean}')
+
+treatment_var = df['treatment'].var()
+print(f'The var is: {treatment_var}')
+```
+## Count of unique values in outcome column 
+
+
+```{python}
+treatment_count = df['treatment'].value_counts()
+print(f'The number is: {treatment_count}')
+```
