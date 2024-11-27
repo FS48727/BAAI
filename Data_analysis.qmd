@@ -149,7 +149,10 @@ upper_bound = Q3 + 1.5 * IQR
 df.loc[df['Income'] > upper_bound, 'Income'] = upper_bound
 df.loc[df['Income'] < upper_bound, 'Income'] = lower_bound
 ```
+ 
 
+
+ 
 ## Data Transformation
 
 ## Normalizing: 0 ≤ x ≤ 1
