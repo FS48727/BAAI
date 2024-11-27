@@ -3175,7 +3175,7 @@ vertical-align: -.125em;
 <section id="load-data" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="load-data"><span class="header-section-number">2</span> Load Data</h2>
 <p>Load dataset from CSV file into <code>df</code> using Pandas package.</p>
-<div id="35ac6544" class="cell" data-execution_count="1">
+<div id="f7baa6a2" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">&#39;customer_data.csv&#39;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -3202,16 +3202,16 @@ vertical-align: -.125em;
 <ul>
 <li>How many rows and columns?</li>
 </ul>
-<div id="2eb07c9b" class="cell" data-execution_count="2">
+<div id="e7669d02" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df.shape</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="59">
+<div class="cell-output cell-output-display" data-execution_count="20">
 <pre><code>(10, 4)</code></pre>
 </div>
 </div>
 </section>
 <section id="column-data-type" class="level3" data-number="3.2">
 <h3 data-number="3.2" class="anchored" data-anchor-id="column-data-type"><span class="header-section-number">3.2</span> Column data type</h3>
-<div id="845d0bd6" class="cell" data-execution_count="3">
+<div id="38c1c38a" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
@@ -3231,9 +3231,9 @@ memory usage: 452.0+ bytes</code></pre>
 </section>
 <section id="check-first-few-rows" class="level2" data-number="4">
 <h2 data-number="4" class="anchored" data-anchor-id="check-first-few-rows"><span class="header-section-number">4</span> Check first few rows</h2>
-<div id="ee1db22b" class="cell" data-execution_count="4">
+<div id="fc19efae" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="61">
+<div class="cell-output cell-output-display" data-execution_count="22">
 <div>
 
 
@@ -3292,9 +3292,9 @@ memory usage: 452.0+ bytes</code></pre>
 </section>
 <section id="check-last-few-rows" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="check-last-few-rows"><span class="header-section-number">5</span> Check last few rows</h2>
-<div id="27caee2a" class="cell" data-execution_count="5">
+<div id="bf579a1c" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.tail()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="62">
+<div class="cell-output cell-output-display" data-execution_count="23">
 <div>
 
 
@@ -3353,9 +3353,9 @@ memory usage: 452.0+ bytes</code></pre>
 </section>
 <section id="basic-statistics" class="level2" data-number="6">
 <h2 data-number="6" class="anchored" data-anchor-id="basic-statistics"><span class="header-section-number">6</span> Basic statistics</h2>
-<div id="efce45de" class="cell" data-execution_count="6">
+<div id="ac3feab8" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="63">
+<div class="cell-output cell-output-display" data-execution_count="24">
 <div>
 
 
@@ -3426,9 +3426,9 @@ memory usage: 452.0+ bytes</code></pre>
 </section>
 <section id="round-to-2-decimal-points" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="round-to-2-decimal-points"><span class="header-section-number">7</span> Round to 2 decimal points</h2>
-<div id="4d730379" class="cell" data-execution_count="7">
+<div id="9424bbb0" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df.describe().<span class="bu">round</span>(<span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="64">
+<div class="cell-output cell-output-display" data-execution_count="25">
 <div>
 
 
@@ -3499,8 +3499,8 @@ memory usage: 452.0+ bytes</code></pre>
 </section>
 <section id="dataset" class="level2" data-number="8">
 <h2 data-number="8" class="anchored" data-anchor-id="dataset"><span class="header-section-number">8</span> Dataset</h2>
-<div id="f4fb252a" class="cell" data-execution_count="8">
-<div class="cell-output cell-output-display" data-execution_count="65">
+<div id="7d3ca4a3" class="cell" data-execution_count="8">
+<div class="cell-output cell-output-display" data-execution_count="26">
 <div>
 
 
@@ -3594,7 +3594,7 @@ memory usage: 452.0+ bytes</code></pre>
 </section>
 <section id="visualization" class="level2" data-number="9">
 <h2 data-number="9" class="anchored" data-anchor-id="visualization"><span class="header-section-number">9</span> Visualization</h2>
-<div id="c5c57578" class="cell" data-execution_count="9">
+<div id="cf870d1d" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pylab <span class="im">as</span> plt</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Age&#39;</span>].hist()</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -3609,7 +3609,7 @@ memory usage: 452.0+ bytes</code></pre>
 </section>
 <section id="correlation-among-colmuns" class="level2" data-number="10">
 <h2 data-number="10" class="anchored" data-anchor-id="correlation-among-colmuns"><span class="header-section-number">10</span> Correlation among colmuns</h2>
-<div id="ae4d4ce1" class="cell" data-execution_count="10">
+<div id="56803e41" class="cell" data-execution_count="10">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df.plot.scatter(x <span class="op">=</span> <span class="st">&#39;Age&#39;</span>, y <span class="op">=</span> <span class="st">&#39;Income&#39;</span>)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># import seaborn as sns</span></span>
@@ -3628,13 +3628,13 @@ memory usage: 452.0+ bytes</code></pre>
 <ul>
 <li>Removing duplicates</li>
 </ul>
-<div id="936f6bcf" class="cell" data-execution_count="11">
+<div id="818eeb2b" class="cell" data-execution_count="11">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.drop_duplicates(subset<span class="op">=</span><span class="st">&#39;CustomerID&#39;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Fixing incorrect values</li>
 </ul>
-<div id="c2a8137c" class="cell" data-execution_count="12">
+<div id="3bc184e6" class="cell" data-execution_count="12">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df.loc[(df[<span class="st">&#39;Age&#39;</span>] <span class="op">&lt;</span> <span class="dv">18</span>) <span class="op">|</span> (df[<span class="st">&#39;Age&#39;</span>] <span class="op">&gt;</span> <span class="dv">65</span>), <span class="st">&#39;Age&#39;</span>] <span class="op">=</span> np.nan</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -3644,14 +3644,14 @@ memory usage: 452.0+ bytes</code></pre>
 <ul>
 <li>Imputing</li>
 </ul>
-<div id="9466d62d" class="cell" data-execution_count="13">
+<div id="b15403d1" class="cell" data-execution_count="13">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df.loc[df[<span class="st">&#39;Age&#39;</span>].isna(), <span class="st">&#39;Age&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Age&#39;</span>].median()</span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>df.loc[df[<span class="st">&#39;Income&#39;</span>].isna(), <span class="st">&#39;Income&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Income&#39;</span>].mean()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Removing</li>
 </ul>
-<div id="3d64b049" class="cell" data-execution_count="14">
+<div id="45d9a244" class="cell" data-execution_count="14">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> df.dropna(subset<span class="op">=</span>[<span class="st">&#39;Gender&#39;</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
@@ -3660,7 +3660,7 @@ memory usage: 452.0+ bytes</code></pre>
 <ul>
 <li>Identifying and addressing outliers</li>
 </ul>
-<div id="51500327" class="cell" data-execution_count="15">
+<div id="996cd1a6" class="cell" data-execution_count="15">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>Q1 <span class="op">=</span> df[<span class="st">&#39;Income&#39;</span>].quantile(<span class="fl">0.25</span>)</span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>Q3 <span class="op">=</span> df[<span class="st">&#39;Income&#39;</span>].quantile(<span class="fl">0.75</span>)</span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>IQR <span class="op">=</span> Q3 <span class="op">-</span> Q1</span>
@@ -3679,8 +3679,8 @@ memory usage: 452.0+ bytes</code></pre>
 </section>
 <section id="before-encoding" class="level2" data-number="16">
 <h2 data-number="16" class="anchored" data-anchor-id="before-encoding"><span class="header-section-number">16</span> Before encoding</h2>
-<div id="5a24b0c5" class="cell" data-execution_count="16">
-<div class="cell-output cell-output-display" data-execution_count="73">
+<div id="16244e33" class="cell" data-execution_count="16">
+<div class="cell-output cell-output-display" data-execution_count="34">
 <div>
 
 
@@ -3730,27 +3730,6 @@ memory usage: 452.0+ bytes</code></pre>
 <td>81571.428571</td>
 <td>M</td>
 </tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">7</td>
-<td>8</td>
-<td>32.5</td>
-<td>35857.142857</td>
-<td>M</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">8</td>
-<td>9</td>
-<td>45.0</td>
-<td>35857.142857</td>
-<td>F</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">9</td>
-<td>10</td>
-<td>29.0</td>
-<td>35857.142857</td>
-<td>M</td>
-</tr>
 </tbody>
 </table>
 
@@ -3760,14 +3739,14 @@ memory usage: 452.0+ bytes</code></pre>
 </section>
 <section id="encoding-m-0-f-1" class="level2" data-number="17">
 <h2 data-number="17" class="anchored" data-anchor-id="encoding-m-0-f-1"><span class="header-section-number">17</span> Encoding: M-&gt;0, F-&gt;1</h2>
-<div id="6cd92c46" class="cell" data-execution_count="17">
+<div id="8c4e54a5" class="cell" data-execution_count="17">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df.loc[:,<span class="st">&#39;Gender_encoded&#39;</span>] <span class="op">=</span> df[<span class="st">&#39;Gender&#39;</span>].<span class="bu">map</span>({<span class="st">&#39;M&#39;</span>: <span class="dv">0</span>, <span class="st">&#39;F&#39;</span>: <span class="dv">1</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="after-encoding" class="level2" data-number="18">
 <h2 data-number="18" class="anchored" data-anchor-id="after-encoding"><span class="header-section-number">18</span> After encoding</h2>
-<div id="7dcdb8c6" class="cell" data-execution_count="18">
-<div class="cell-output cell-output-display" data-execution_count="75">
+<div id="d5423be5" class="cell" data-execution_count="18">
+<div class="cell-output cell-output-display" data-execution_count="36">
 <div>
 
 
@@ -3820,30 +3799,6 @@ memory usage: 452.0+ bytes</code></pre>
 <td>7</td>
 <td>60.0</td>
 <td>81571.428571</td>
-<td>M</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">7</td>
-<td>8</td>
-<td>32.5</td>
-<td>35857.142857</td>
-<td>M</td>
-<td>0</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">8</td>
-<td>9</td>
-<td>45.0</td>
-<td>35857.142857</td>
-<td>F</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">9</td>
-<td>10</td>
-<td>29.0</td>
-<td>35857.142857</td>
 <td>M</td>
 <td>0</td>
 </tr>

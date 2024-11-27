@@ -158,7 +158,7 @@ df.loc[df['Income'] < upper_bound, 'Income'] = lower_bound
 
 ```{python}
 #|echo: false
-df
+df.head(5)
 ```
 
 ##  Encoding: M->0, F->1
@@ -172,5 +172,5 @@ df.loc[:,'Gender_encoded'] = df['Gender'].map({'M': 0, 'F': 1})
 
 ```{python}
 #|echo: false
-df
+df.head(5)
 ```
