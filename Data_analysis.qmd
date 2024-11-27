@@ -1,0 +1,20 @@
+---
+title: "Data Analysis"
+author: "Frederik Salomon"
+toc: true
+institute: "WWU"
+number-sections: true
+format: html
+---
+
+## Key Points 
+
+- Key Points
+- Data inspection
+  - Structure
+  - Value
+- Data clearing
+  - Dealing with missing data
+  - Detecting outliers
+- Data transformation
+  - Ecoding
