@@ -4,7 +4,9 @@ author: "Frederik Salomon"
 toc: true
 institute: "WWU"
 number-sections: true
-format: html
+format:
+    html:
+      embed-resources: true
 ---
 
 ## Key Points 
@@ -18,3 +20,80 @@ format: html
   - Detecting outliers
 - Data transformation
   - Ecoding
+
+## Load Data 
+
+Load dataset from CSV file into `df` using Pandas package.
+
+
+```{python}
+import pandas as pd
+df = pd.read_csv('customer_data.csv')
+```
+- Where is `customer_data.csv`?
+
+## Data Inspection
+- Structure
+  - Dimension of dataset
+  - Column data type
+- Value
+  - Missing value
+  - Outliers
+
+### Dimension of dataset
+- How many rows and columns?
+
+
+```{python}
+df.shape
+```
+
+### Column data type
+
+
+```{python}
+df.info()
+
+```
+
+## Check first few rows
+
+
+```{python}
+df.head()
+```
+
+## Check last few rows
+
+```{python}
+df.tail()
+```
+
+## Basic statistics
+
+```{python}
+df.describe()
+```
+
+## Round to 2 decimal points
+
+
+```{python}
+df.describe().round(2)
+```
+
+## Dataset
+
+
+```{python}
+df.head()
+```
+
+## Visualization
+
+
+```{python}
+import matplotlib.pylab as plt
+df['Age'].hist()
+plt.show()
+```
